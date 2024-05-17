@@ -1,0 +1,73 @@
+@charset "UTF-8";
+
+* {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+body, html {
+    background-color: #F2EA7E;
+    height: 100%;
+    margin: 0; /* Remova margens padrão */
+    padding: 0;/* Remova preenchimentos padrão */
+}
+
+header {
+    background-color: #ad824e;
+    width: 100%;
+    height: 20%;
+}
+
+header h1 {
+    width: 200px;
+    float: left;
+    text-align: center;
+    color: #916d42;
+    background-image: url(../multimidia/hotel\ diroma.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100%;
+    text-indent: -1000px;
+    margin-bottom: 0;
+}
+
+#contato {
+    border-right: 5px solid #ad834e;
+}
+
+menu {
+    display: block;
+    position: relative;
+    height: auto;
+    width: center;
+    color: #fff;
+}
+
+menu > ul {
+    list-style-type: none;
+    text-align: right;
+}
+
+menu > ul > li > a{
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    text-align: center;
+    background-color: #F2E3B3;
+    border-top: 2px solid #ad834e;
+    border-bottom: 5px solid #ad834e;
+    color: #147358;
+}
+
+menu > ul > li > a:hover {
+    background-color:#d19f62;
+}
+
+#rodape {
+    color: #b48953;
+    border-bottom: 1px solid #ccc; /* Cor e espessura da linha */
+    width: 100%; /* Largura da linha */
+    position: fixed; /* Fixa a linha na parte inferior */
+    bottom: 0
+}

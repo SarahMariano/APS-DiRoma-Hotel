@@ -1,0 +1,64 @@
+Tags de HTML
+
+em HTML é id = em CSS é # (so pode um elemento)
+em HTML é class = em CSS é . (pode ser usados em mais de um elemento)
+
+<head>Todo tipo de metadados e configurações de programação</head>
+<body>Todo conteúdo visual da página</body>
+
+"mailto:sarah@email.com"
+
+*Links
+
+<a>Clique aqui!</a> (torna clicavel)
+href = "link do site"
+target = "_self" abrir em uma nova aba
+target = "_blank"
+
+*Estilo
+
+<style="estilizar o texto"> 
+background-color:; cor de fundo
+front-size:; tamanho da letra
+color:; cor da letra
+text-align:; alinhamento da linha
+</style>
+
+<b> negrito </b>
+<i> italico </i> 
+<del> deletado </del>
+<mark> grifado </mark>
+<big OBSOLETA> negrito e fonte aumentada </big>
+<small> texto pequeno </small>
+<del> texto riscado </del>
+<u> sublinhado </u>
+<sup> sobrecrito </sup>
+<sub> subescrito </sub>
+
+*Tabela
+
+<table></table>
+<td> é para linha 
+<tr> é para coluna 
+<th> é titulo da coluna
+colspan = define o numero colunas 
+
+*Titulos 
+
+<h1> a <h6> de forma crescente em tamanho 
+
+*Parágrafo
+
+<p> para parágrafo
+
+*Imagem
+
+height="" altura
+width="" largura
+src local da imagem 
+alt="texto alternativo"
+
+                                        (pixels)
+<img src="kkkkk.jpg" alt="fkskf" width="500" height="333"
+     (fonte)         (texto alternativo)
+

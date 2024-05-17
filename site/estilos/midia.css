@@ -1,0 +1,8 @@
+@charset "UTF-8";
+
+@media screen {
+    .menu > ul > li {
+        display: inline-block;
+        width: 100%;
+    }
+}
